@@ -1,0 +1,27 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: lightsalmon;
+        position: relative;
+        top: 70px;
+        scroll-behavior: smooth;
+        //we need to learn more about scroll-snap;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;  //for firefox
+
+        //this meaning that we will hidden scrollbar to another navigator like => chrome, safari,etc
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        //this "> * " indicate that each element inside will be styled.
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        }
+    }
+}
