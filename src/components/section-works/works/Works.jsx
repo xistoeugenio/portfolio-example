@@ -1,12 +1,9 @@
 import {
     KeyboardDoubleArrowLeft,
-    KeyboardDoubleArrowRight,
-    // Language,
-    //  MobileFriendly,
-    //   StickyNote2,
+    KeyboardDoubleArrowRight
 } from '@mui/icons-material'
 import { useState } from 'react';
-import { data } from '../../data';
+import { data } from '../../../data';
 import './works.scss';
 
 export default function Works() {

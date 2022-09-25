@@ -1,10 +1,10 @@
-import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from './components/works/Works';
-import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact';
-import Menu from "./components/menu/Menu";
+import Topbar from "./components/menubar/topbar/Topbar";
+import Intro from "./components/section-intro/Intro";
+import Portfolio from "./components/section-portfolio/portfolio/Portfolio";
+import Works from './components/section-works/works/Works';
+import Testimonials from './components/section-testimonials/testimonials/Testimonials'
+import Contact from './components/section-contact/contact/Contact';
+import Menu from "./components/menubar/menu/Menu";
 import './app.scss'
 import { useState } from "react";
 

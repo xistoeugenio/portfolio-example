@@ -1,5 +1,5 @@
 import './testimonials.scss'
-import { dataTestimonials } from '../../data'
+import { dataTestimonials } from '../../../data'
 
 export default function Testimonials() {
     return (
